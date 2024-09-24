@@ -45,17 +45,31 @@
                     <li>name: Asigna un nombre al formulario para ser recuperado del lado del servidor</li>
                 </ul>
                 <br>
-                <form action="/login.php">
+                <form action="/login.php" method="post" name="loginfrm" >
                     <label for="username">Usuario:</label>
-                    <input type="text" id="username">
+                    <input type="text" id="username" name="username">
                     <label for="password">Contraseña:</label>
-                    <input type="password" id="password" >
+                    <input type="password" id="password" name="password" >
                     <input type="submit" value="Enviar">
                 </form>
             </article>
             <article>
-                <h3>Titulo articulo 2, de la seccion 1</h3>
-                <p>Parrafo del articulo 2</p>
+                <h3>Tipos de entrada</h3>
+                <p>
+                    <ul>
+                        <li>text: Permite capturar texto en claro</li>
+                        <li>textarea: area de texto, permite capturar texto de multiple linea</li>
+                        <li>password: capturar texto oculto</li>
+                        <li>email: correo, permite capturar correos electronicos validados</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </p>
             </article> 
         </section>
     </main>
