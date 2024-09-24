@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Aksel VA/dev</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina personal de Aks">
+    <meta name="keywords" content="UNAM, FES, Aragón, lamejor, ICO, Computacion" >
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <script src="./assets/js/cliente.js"></script>
+
+</head>
+<body id="cuerpo" >
+    <header>
+        <h1 style="margin-bottom: 15px; color: green; font-size: 24px; background-color: darkseagreen; " >Mi Página Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.unam.mx">UNAM</a></li>
+                <li><a href="https://aragon.unam.mx">FES Aragón</a></li>
+                <li>
+                    <ul>
+                        <li><a href="code.html">Code</a></li>
+                        <li><a href="listas.html">Listas</a></li>
+                        <li><a href="links.html">Enlaces e imagenes</a></li>
+                        <li><a href="tablas.html">Tablas.html</a></li>
+                        <li><a href="formularios.html">Formularios</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Tablas</h1>
+            <article>
+                <h3>Tablas</h3>
+                <p>
+                    Con los tags <code> &lt;table&gt;</code>, <code> &lt;tr&gt;</code>, <code> &lt;th&gt;</code>, <code> &lt;td&gt;</code> se crean tablas de organizan informacion para resumirla.
+                    <br>
+                    <ul>
+                        <li>TR : Permite declrar renglones (rows)</li>
+                        <li>TH: Declarar cabeceras de columna</li>
+                        <li>TD: Para declarar los datos de las celdas</li>
+                    </ul>    
+                </p>
+                <br>
+                <p>
+                    <table>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Juan</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Diana</td>
+                            <td>19</td>
+                        </tr>
+                    </table>
+                </p>
+            </article>
+            <article>
+                <h3>Los atributos: broder, caption, colspan y rowspan</h3>
+                <p>
+                    <ul>
+                        <li>border: Establece el ancho de borde para la tabla</li>
+                        <li>caption: Estabece un titulo arriba de la cabecera</li>
+                        <li>colspan: Permite que una celda ocupe varias columnas</li>
+                        <li>rowspan: Permite que una celda ocupe varios renglones</li>
+                    </ul>
+                    <br>
+                    <table border="1">
+                        <caption>Ejemplo de tamaño border</caption>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Juan</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Diana</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table border="1">
+                        <tr>
+                            <th>ID</th>
+                            <th colspan="2">Nombre</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Juan</td>
+                            <td>Martinez</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Diana</td>
+                            <td>Perez</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table border="1">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Telefono</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" > Juan</td>
+                            <td>juan@gmail.com</td>
+                            <td>55-5445-5656</td>
+                        </tr>
+                        <tr>
+                            <td>Juan2@hotmail.com</td>
+                            <td>55-4343-4545</td>
+                        </tr>
+                    </table>
+                </p>
+                
+            </article>
+            <article>
+                <h3>Titulo articulo 2, de la seccion 1</h3>
+                <p>Parrafo del articulo 2</p>
+            </article>
+            <article>
+                <h3>Titulo articulo 2, de la seccion 1</h3>
+                <p>Parrafo del articulo 2</p>
+            </article> 
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados FES Aragon UNAM 2024</p>
+    </footer>
+
+</body>
+</html>

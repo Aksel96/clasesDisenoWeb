@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Aksel VA/dev</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina personal de Aks">
+    <meta name="keywords" content="UNAM, FES, Aragón, lamejor, ICO, Computacion" >
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <script src="./assets/js/cliente.js"></script>
+
+</head>
+<body id="cuerpo" >
+    <header>
+        <h1 style="margin-bottom: 15px; color: green; font-size: 24px; background-color: darkseagreen; " >Mi Página Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.unam.mx">UNAM</a></li>
+                <li><a href="https://aragon.unam.mx">FES Aragón</a></li>
+                <li>
+                    <ul>
+                        <li><a href="code.html">Code</a></li>
+                        <li><a href="listas.html">Listas</a></li>
+                        <li><a href="links.html">Enlaces e imagenes</a></li>
+                        <li><a href="tablas.html">Tablas.html</a></li>
+                        <li><a href="formularios.html">Formularios</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Links e imagenes</h1>
+            <article>
+                <h3>link</h3>
+                <p><code> &lt;a&gt;</code> Es un tag para inscrutar enlaces en la pagina.
+                    Sus atributos principales son:
+                    <ul>
+                        <li>title</li>
+                        <li>href</li>
+                        <li>target</li>
+                    </ul>
+                    <br>
+                    Opciones de Target:
+                    <ul>
+                        <li>_self: Abre el link en la misma pagina</li>
+                        <li>_blank: Abre el link en una nueva pagina del navegador</li>
+                        <li>_parent: Abre en la pagina contenedora de la actual</li>
+                        <li>_top: La abre en la parte superir de la pagina parent</li>
+                    </ul>
+                Ejemplo:
+                <a title="link a github" href="http://www.github.com" target="_blank">Sitio de GitHub</a>
+                </p>
+            </article>
+            <article>
+                <h3>Imagenes</h3>
+                <p>El tag <code> &lt;img&gt;</code> sirve para incrustar imagenes en la pagina</p>
+
+                <p>
+                    sus atributos importantes son:
+                    <ul>
+                        <li>Title: Es el tooltip</li>
+                        <li>src: Es la URL a la imagen, ya sea relativa o absoluta</li>
+                        <li>width: Ancho en pixeles</li>
+                        <li>height: Alto en pixeles</li>
+                        <li>loading: Forma de carga; lazy o eager </li>
+                    </ul>
+                    <p>
+                        <img title="doge" 
+                        src="./assets/img/cheemsGrande.jpeg" 
+                        alt="Imagen de doge">
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate quo consequatur cum maiores assumenda doloribus, omnis sint laborum commodi incidunt, neque reprehenderit eius. Unde aspernatur molestias nostrum quam fugit!
+                    </p>
+                    <p></p>
+                    <h3>Ajuste de alto y ancho</h3>
+                        <img title="doge" 
+                        src="./assets/img/cheemsGrande.jpeg" 
+                        alt="Imagen de doge"
+                        height="480px"
+                        width="720px">
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate quo consequatur cum maiores assumenda doloribus, omnis sint laborum commodi incidunt, neque reprehenderit eius. Unde aspernatur molestias nostrum quam fugit!
+                    </p>
+
+                    <p></p>
+                        <h3>Probando la carga perezoza</h3>
+                        <img title="doge" 
+                        src="./assets/img/cheemsGrande.jpeg" 
+                        alt="Imagen de doge"
+                        loading="lazy">
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cupiditate quo consequatur cum maiores assumenda doloribus, omnis sint laborum commodi incidunt, neque reprehenderit eius. Unde aspernatur molestias nostrum quam fugit!
+                    </p>
+                </p>
+            </article> 
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados FES Aragon UNAM 2024</p>
+    </footer>
+
+</body>
+</html>
