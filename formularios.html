@@ -73,15 +73,45 @@
             </article> 
             <article>
                 <h3>Login completo</h3>
-                <form action="./options.php" method="post" >
-                    <select name="fruta" id="fruta">
-                        <option value="fresas">Fresas rojas</option>
-                        <option value="naranjas">Naranja del bajio</option>
-                        <option value="pera">Pera criolla</option>
-                        <option value="aguacate">Aguacate michoacano</option>
-                        <option value="kiwi" selected>kiwi para la dieta</option>
-                    </select>
-                    <input type="submit" value="Ingresa">
+                <form action="./controles2.php" method="post" >
+                    <label for="correo">Correo Electroico: </label>
+                    <input type="email" name="correo" id="correo" required>
+                    <br>
+                    <label for="edad">Edad: </label>
+                    <input type="number" name="edad" id="edad" required>
+                    <br>
+                    <label for="comentario">Escribe tu caso</label>
+                    <textarea name="comentario" id="comentario" cols="40" rows="4" ></textarea>
+                    <br>
+                    <label for="hombre">Hombre: </label>
+                    <input type="radio" name="genero" id="hombre" value="Hombre">
+                    <br>
+                    <label for="mujer">Mujer: </label>
+                    <input type="radio" name="genero" id="mujer" value="Mujer">
+                    <br>
+                    <label for="lgbtti">LGBTTT: </label>
+                    <input type="radio" name="genero" id="lgbtti" value="LGBTTI">
+                    <br>
+                    <label for="nodecir">Prefiero no responder: </label>
+                    <input type="radio" name="genero" id="nodecir" value="Prefiero no responder">
+                    <br>
+
+
+                    <h3>Comida favorita</h3>
+                    <label for="tortas">Tortas: </label>
+                    <input type="checkbox" id="tortas" name="comida" value="tortas">
+                    
+                    <br>
+                    <label for="tortas">Tamales: </label>
+                    <input type="checkbox" id="tamales" name="comida" value="tamales">
+                    
+                    <br>
+                    <label for="huaraches">Huaraches: </label>
+                    <input type="checkbox" id="huaraches" name="comida" value="huaraches">
+                    
+
+                    <br>
+                    <input type="submit" value="Enviar">
                 </form>
             </article>
         </section>
